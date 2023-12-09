@@ -8,27 +8,27 @@
     src: url(Satoshi-Variable.ttf);
   }
 
-.container1 {
-    height: 100vh;
+.container {
+    height: 75vh;
     width: 100vw;
-    background-image: url(./images/applebg.png);
     background-size: cover;
-    background-color: white;
+    background-color: black;
 }
 
 nav {
     display: flex;
     position: fixed;
-    padding-left: 10%;
-    padding-right: 10%;
-    text-align: center;
-    background-color: #131c1a;
+    width:100vw;
+    background-color: #1d1d1d;
+    justify-content: center;
 }
 
 nav ul li {
     display: inline-block;
     padding: 12px 15px;
     text-decoration: none;
+    border: solid;
+    border-color: red;
 }
 
 nav a {   
@@ -38,57 +38,63 @@ nav a {
     font-weight: 400;
     font-size: 12px;
     letter-spacing: .02rem;
-    
+    width: 100vw;
+}
+
+nav a:hover {
+    color: #fff;
+    transition: 1s color;
 }
 
 .navIcon {
-    width: 1%;
+    width: 1rem;
     filter: invert(1);
     vertical-align: middle;
-    margin-bottom: .25%;
+    margin-bottom: .5%;
     opacity: .85;
-    padding-left: 1%;
-    padding-right: 1%;
 }
 
-/*----------------------CONTAINERS----------------------------
-.container1 {
-    background-image: url("./images/appleWatch.jpg");
-    height: 50em;
+.navIcon:hover {
+    opacity: 1;
+    transition: 2s opacity;
 }
 
-.container2 {
-    background-image: url("./images/appleWatch.jpg");
-    height: 50em;
+
+#container1 {
+    background-color: black;
 }
 
-.container3 {
+#container2 {
     background-image: url("./images/appleWatch.jpg");
-    height: 50em;
+
 }
 
-.container4 {
+#container3 {
     background-image: url("./images/appleWatch.jpg");
-    height: 50em;
+
 }
 
-.container5 {
+#container4 {
     background-image: url("./images/appleWatch.jpg");
-    height: 50em;
+
 }
 
-.container6 {
+#container5 {
     background-image: url("./images/appleWatch.jpg");
-    height: 50em;
+
 }
 
-.container7 {
+#container6 {
     background-image: url("./images/appleWatch.jpg");
-    height: 50em;
+
 }
 
-.container8 {
+#container7 {
     background-image: url("./images/appleWatch.jpg");
-    height: 50em;
+
+}
+
+#container8 {
+    background-image: url("./images/appleWatch.jpg");
 }
 
