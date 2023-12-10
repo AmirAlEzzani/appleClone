@@ -8,12 +8,6 @@
     src: url(Satoshi-Variable.ttf);
   }
 
-.container {
-    height: 75vh;
-    width: 100vw;
-    background-size: cover;
-    background-color: black;
-}
 
 nav {
     display: flex;
@@ -25,24 +19,25 @@ nav {
 
 nav ul li {
     display: inline-block;
-    padding: 12px 15px;
     text-decoration: none;
     border: solid;
     border-color: red;
 }
 
+nav button {
+    background-color: transparent;
+    padding: 12px 15px;
+
+}
+
 nav a {   
     text-decoration: none;
-    color: #d8d8d8;
+    color: #9a9a9a;
     font-family: 'Satoshi-Variable';
     font-weight: 400;
     font-size: 12px;
     letter-spacing: .02rem;
     width: 100vw;
-}
-
-nav a:hover {
-    color: #fff;
     transition: 1s color;
 }
 
@@ -59,9 +54,14 @@ nav a:hover {
     transition: 2s opacity;
 }
 
+.container {
+    height: 75vh;
+    width: 100vw;
+    background-color: black;
+}
 
 #container1 {
-    background-color: black;
+    background-image: url("./images/appleWatch.jpg");
 }
 
 #container2 {
