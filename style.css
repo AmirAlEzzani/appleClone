@@ -14,6 +14,7 @@ nav {
     display: flex;
     background-color: #1d1d1d;
     justify-content:center;
+    width: 100vw;
 
 }
 
@@ -22,7 +23,7 @@ nav {
 
 nav a {   
     text-decoration: none;
-    color: #9a9a9a;
+    color: #d9d9d9;
     font-family: 'Satoshi-Variable';
     font-weight: 400;
     font-size: 12px;
@@ -40,12 +41,16 @@ nav a:hover {
     width: 1rem;
     filter: invert(1);
     vertical-align: top; 
-    opacity: .55;
+    opacity: .75;
 }
 
 .navIcon:hover {
     opacity: 1;
-    transition: 2s opacity;
+    transition: 1s opacity;
+}
+
+.fixed {
+    position: fixed;
 }
 
 .container {
