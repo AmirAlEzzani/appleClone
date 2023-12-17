@@ -54,7 +54,7 @@ nav a:hover {
 }
 
 .container {
-    height: 75vh;
+    height: 74vh;
     width: 100%;
     background-color: black;
 }
@@ -83,10 +83,11 @@ nav a:hover {
 
 #container1 {
     background-image: url("./images/appleWatch.jpg");
+
 }
 
 #container2 {
-    background-image: url("./images/appleWatch.jpg");
+    background-image: url("./images/lineup2.jpg");
 
 }
 
@@ -96,7 +97,7 @@ nav a:hover {
 }
 
 #container4 {
-    background-image: url("./images/appleWatch.jpg");
+    background-image: url("./images/lineup3.jpg");
 
 }
 
