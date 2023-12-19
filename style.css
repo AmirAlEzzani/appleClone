@@ -79,7 +79,7 @@ nav a:hover {
 }
 
 .text {
-    position: fi;
+    
 }
 
 #shop {
@@ -98,41 +98,42 @@ nav a:hover {
 }
 
 #container3 {
-    background-image: url("./images/applebg.png");
+    background-image: url("./images/cinematiciphone.webp");
+    background-size: 100vw;
 
 }
 
 #container4a {
-    background-image: url("./images/lineup3.jpg");
+    background-image: url("./images/lineup2.jpg");
 
 }
 
-#container4a {
+#container4b {
     background-image: url("./images/lineup3.jpg");
 
 }
 
 #container5a {
-    background-image: url("./images/appleWatch.jpg");
+    background-image: url("./images/iphone.jpg");
 
 }
 
 #container5b {
-    background-image: url("./images/appleWatch.jpg");
+    background-image: url("./images/products.jpg");
 
 }
 
 #container6a {
-    background-image: url("./images/appleWatch.jpg");
+    background-image: url("./images/vision.webp");
 
 }
 
 #container6b {
-    background-image: url("./images/appleWatch.jpg");
+    background-image: url("./images/appleTV.jpg");
 
 }
 
 #container7 {
-    background-image: url("./images/appleWatch.jpg");
+    background-image: url("./images/iphone12.jpg");
 
 }
