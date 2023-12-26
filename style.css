@@ -3,18 +3,24 @@
     margin: 0;
 }
 
+body {
+    background-color: black;
+}
+
 @font-face {
     font-family: 'Satoshi-Variable';
     src: url(Satoshi-Variable.ttf);
     
-  }
+}
 
 
 nav {
     display: flex;
-    background-color: #1d1d1d;
+    background-color: #444;
     justify-content:center;
     width: 100vw;
+    position: fixed;
+    
 
 }
 
@@ -49,23 +55,24 @@ nav a:hover {
     transition: 1s opacity;
 }
 
-.fixed {
-    position: fixed;
-}
+
 
 .container {
     height: 74vh;
     width: 100%;
     background-color: black;
-}
-
-.divider {
-    height: 1.25vh;
-    width: 100vw;
+    display: flex;
+    border-top: solid 12px white;
 }
 
 .half {
     width: 50vw;
+    flex-wrap: wrap;
+    
+}
+
+.left {
+    border-right: solid 12px white;
 }
 
 .title {
@@ -79,12 +86,15 @@ nav a:hover {
 }
 
 .text {
-    
+    color: black;
+    font-size: 24px;
 }
 
-#shop {
-    color: white;
-    font-size: 24px;
+.shop {
+    height: 3vh;
+    background-color: transparent;
+    border: none;
+
 }
 
 #container1 {
@@ -105,6 +115,7 @@ nav a:hover {
 
 #container4a {
     background-image: url("./images/lineup2.jpg");
+    background-size: 100vw;
 
 }
 
